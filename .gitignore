@@ -1,0 +1,23 @@
+# colcon 构建产物（体积很大，且每次编译都会变）
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# 编辑器 / IDE（如需共享配置可删掉这几行）
+.vscode/
+.idea/
+*.swp
+*~
+
+# 编译数据库（由 colcon --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON 生成，在 build/ 内，已被忽略）
+compile_commands.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
